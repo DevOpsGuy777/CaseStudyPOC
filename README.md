@@ -14,5 +14,6 @@ I have completed below case study requrirements equivalent in azure
 * I have used CircleCi tool (ci/cd) for this POC
 * As best practice we should not ingest secrets, sensitive variable information in git repo, it was handled via CircleCI context (which is equvilaent to Azure DevOps Variable group / Github env varriables)
 * tfvars files will be generated dynamically during cd/cd process as its consists of secrets which are too redacted and wont appear in this repo and also its best practice to keep tfvars json out of your repo (generate it in ci/cd flow and pass to terraform)
+* approach of different clients/their different environments(with base config.json, sbx(environment.json) files with same piece of code which will allow flexibiity to deploy to various client /various environments..
 
 * I have attached screenshot for resources created on Azure subscription cited above. Please see docs folder in this repo
