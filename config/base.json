@@ -1,0 +1,10 @@
+{"CLIENT_CODE":"<placeholder for runtime parameter>",
+    "location":"westeurope",
+    "vmss_sku":"Standard_F2",
+    "instance_count":2,
+    "dns_servers": [],
+    "role_name":"Restart Web Server",
+    "role_description":"Role to restart the web server",
+    "lb_name":"poc_load_balancer",
+    "hub_vnet_name":"Sapientvnet"
+}
