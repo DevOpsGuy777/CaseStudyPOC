@@ -1,7 +1,7 @@
 {"CLIENT_CODE":"sapient",
 	"location":"westeurope",
      "user_display_name":"prasanth",
-     "user_principal_name":"asp@orpheuslab.onmicrosoft.com",
+     "user_principal_name":"asp@xxxxxx.onmicrosoft.com",
      "vmss_name":"sapientvmss",
      "backend_pool_name": "sapientbepool",
      "rg_name":"Sapient"     
