@@ -1,14 +1,14 @@
 {"vmss_sku":"Standard_DS2_v2",
     "instance_count":2,
-    "vnet_address_space": ["10.250.0.0/24","10.251.0.0/24"],
+    "vnet_address_space": ["xx.xxx.0.0/24","xx.xxx.0.0/24"],
     "subnets": {
         "app_snet":{
             "name" : "appsubnet",
-            "address_prefixes" : ["10.250.0.0/24"]
+            "address_prefixes" : ["xx.xxx.0.0/24"]
         },
         "dns-snet": {
             "name" : "DNSSubnet",
-            "address_prefixes" : ["10.251.0.0/24"]           
+            "address_prefixes" : ["xx.xxx.0.0/24"]           
         }        
     }
 }
