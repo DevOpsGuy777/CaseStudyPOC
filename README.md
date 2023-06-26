@@ -15,4 +15,4 @@ I have completed below case study requrirements equivalent in azure
 * As best practice we should not ingest secrets, sensitive variable information in git repo, it was handled via CircleCI context (which is equvilaent to Azure DevOps Variable group / Github env varriables)
 * tfvars files will be generated dynamically during cd/cd process as its consists of secrets which are too redacted and wont appear in this repo and also its best practice to keep tfvars json out of your repo (generate it in ci/cd flow and pass to terraform)
 
-* I have attached screenshot for resources created on Azure subscription cited above. Please docs folder in this repo
+* I have attached screenshot for resources created on Azure subscription cited above. Please see docs folder in this repo
